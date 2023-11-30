@@ -14,6 +14,16 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
+        rm -rf practicals
+        rm -rf subjects
+        rm -rf CNAME
+        rm -rf designer.otf
+        rm -rf index.css
+        rm -rf index.html
+        rm -rf mainBG.svg
+        rm -rf tatsama.ttf
+        rm -rf tgoia.otf
+        rm -rf .github
         sudo apt install unzip
         unzip html.zip
     - name: Commit files
