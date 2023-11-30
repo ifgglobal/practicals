@@ -15,8 +15,15 @@ jobs:
     - name: Create local changes
       run: |
         sudo apt install unzip
+        mkdir temp
+        mv html.zip temp
+        cd temp
         unzip html.zip
+        rm -rf .github
         rm -rf html.zip
+        mv * ../
+        cd ../
+        rm -rf temp
         rm -rf blank
     - name: Commit files
       run: |
