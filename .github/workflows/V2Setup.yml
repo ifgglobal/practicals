@@ -1,4 +1,4 @@
-name: V2 Setx2
+name: V2 Seet
 
 on:
 
@@ -14,12 +14,17 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
+        export DIRP=$(pwd)
+        cd ../
         mkdir tmpr
-        mv * tmpr
-        cd tmpr
-        mv CNAME ../
+        cd $DIRP
+        echo hi
+        mv * ../tmpr
+        cd ../tmpr
+        mv CNAME $DIRP
         cd ../
         rm -rf tmpr
+        cd $DIRP
         touch index.html
     - name: Commit files
       run: |
