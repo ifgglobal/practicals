@@ -1,4 +1,4 @@
-name: V2 Setx
+name: V2 Setx2
 
 on:
 
@@ -14,12 +14,12 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
-        mkdir tmp
-        mv * tmp
-        cd tmp
+        mkdir tmpr
+        mv * tmpr
+        cd tmpr
         mv CNAME ../
         cd ../
-        rm -rf tmp
+        rm -rf tmpr
         touch index.html
     - name: Commit files
       run: |
