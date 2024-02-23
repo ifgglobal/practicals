@@ -1,4 +1,4 @@
-name: V2 Setup
+name: V2 Setx
 
 on:
 
@@ -14,17 +14,13 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
-        sudo apt install unzip
-        mkdir temp
-        mv html.zip temp
-        cd temp
-        unzip html.zip
-        rm -rf .github
-        rm -rf html.zip
-        mv * ../
+        mkdir tmp
+        mv * tmp
+        cd tmp
+        mv CNAME ../
         cd ../
-        rm -rf temp
-        rm -rf blank
+        rm -rf tmp
+        touch index.html
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
