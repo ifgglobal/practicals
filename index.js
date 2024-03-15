@@ -59,7 +59,7 @@ modal.addFooterBtn('Agree and Close', 'tingle-btn tingle-btn--default', function
 
 //warn
 function warnMe() {
-  var alerted = getCookie('agreed') || '';
+  var agreed = getCookie('agreed') || '';
                 if (agreed != 'yes') {
                  modal.open();
                 }
