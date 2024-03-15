@@ -70,7 +70,7 @@ warnMe();
 
 //db
 function dbLoadX(dbName) {
-$.getJSON( "/database/"+dbName+".json", function(data) {
+$.getJSON( "/database/"+dbName+".json?cache=0", function(data) {
   $.each( data, function(key, val) {
  var $clonePopulate = $("<a href='/pedestal/web/viewer?file=/practicals/"+dbName+"/"+val.objectUrl+"' class='"+val.objectClass+"'><li class='sites'>"+val.objectName+"</li></a>");
  $("#prcList").append($clonePopulate);            
