@@ -1,0 +1,21 @@
+[
+  {
+    "dbHeader": "meta",
+    "dbRelation": "subject",
+    "dbType": "json",
+    "dbClass": "ObjectOrientedDatabase",
+    "objectClass": "hideall"
+  },
+  
+  
+  { "id": 1, "objectName": "ঊর্ধ্বপাতন প্রক্রিয়ার মাধ্যমে মিশ্রণ থেকে দুইটি উপাদানকে পৃথকীকরণ", "objectUrl": "chem1.pdf" },
+  { "id": 2, "objectName": "ধাতব কার্বনেট যৌগের সাথে লঘু এসিডের বিক্রিয়ায় উৎপন্ন গ্যাস শনাক্তকরণ", "objectUrl": "chem2.pdf" },
+  
+  
+  {
+    "dbFooter": "meta",
+    "dbScripts": "/index.js",
+    "dbVersion": "stable",
+    "objectClass": "hideall"
+  }
+]
