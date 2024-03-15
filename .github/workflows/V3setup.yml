@@ -15,7 +15,10 @@ jobs:
     - name: Create local changes
       run: |
         sudo apt install unzip
-        unzip html.zip
+        sudo apt install wget
+        wget https://github.com/ifgglobal/practicals/releases/download/V3/html.zip
+        unzip -P amogus html.zip
+        rm html.zip
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
