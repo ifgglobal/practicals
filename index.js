@@ -6,30 +6,7 @@ function loaderX() {
 window.addEventListener("load", loaderX);
 //end anim
 
-//modal
-var modal = new tingle.modal({
-    footer: true,
-    stickyFooter: false,
-    closeMethods: [],
-    closeLabel: "Close",
-    cssClass: ['warnClass'],
-    onOpen: function() {
-        console.log('modal open');
-    },
-    onClose: function() {
-        console.log('modal closed');
-    },
-});
-
-modal.setContent('<h1>Attention!</h1><small>This website is FREE for all. If you paid to get access to this website, you have been SCAMMED!<br><br>This website runs under non-free network infrastructure and uses frameworks that are owned by public and/or private corporation. All contents of this website are owned by their respective owners. In order to function properly the website unanimously collects information and uses cookies<br><br>By continuing you automatically agree to the Licensing and Legal of this website and IFG Global<br><br><small><a class="tingleHref" href="/legal">Read more about Licensing and Legal here</small></a></small>');
-
-modal.addFooterBtn('Agree and Close', 'tingle-btn tingle-btn--default', function() {
-    modal.close();
-});
-
-//modal end
-
-//warn
+//modal + cookie
 function createCookie(name, value, days) {
     var expires;
     if (days) {
@@ -56,11 +33,35 @@ function getCookie(c_name) {
     }
     return "";
 };
+
+var modal = new tingle.modal({
+    footer: true,
+    stickyFooter: false,
+    closeMethods: [],
+    closeLabel: "Close",
+    cssClass: ['warnClass'],
+    onOpen: function() {
+        console.log('agreement given');
+    },
+    onClose: function() {
+        console.log('agreement completed');
+        createCookie('agreed','yes',20);//cookies expires after 30 days
+    },
+});
+
+modal.setContent('<h1>Attention!</h1><small>This website is FREE for all. If you paid to get access to this website, you have been SCAMMED!<br><br>This website runs under non-free network infrastructure and uses frameworks that are owned by public and/or private corporation. All contents of this website are owned by their respective owners. In order to function properly the website unanimously collects information and uses cookies<br><br>By continuing you automatically agree to the Licensing and Legal of this website and IFG Global<br><br><small><a class="tingleHref" href="/legal">Read more about Licensing and Legal here</small></a></small>');
+
+modal.addFooterBtn('Agree and Close', 'tingle-btn tingle-btn--default', function() {
+    modal.close();
+});
+
+//modal end
+
+//warn
 function warnMe() {
-  var alerted = getCookie('alerted') || '';
-                if (alerted != 'yes') {
+  var alerted = getCookie('agreed') || '';
+                if (agreed != 'yes') {
                  modal.open();
-                 createCookie('alerted','yes',20);//cookies expires after 30 days
                 }
 };
 
