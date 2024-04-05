@@ -54,8 +54,22 @@ iframe {
   z-index: 99;
 }
 
-.bgimg {
-  background: url(bg.jpg) no-repeat center center;
+.bgimgMain {
+  background: url(bgimgMain.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -99;
+}
+
+.bgimgSub {
+  background: url(bgimgSub.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
