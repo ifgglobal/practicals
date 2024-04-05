@@ -1,4 +1,4 @@
-name: V3 Setup
+name: V4 Setup
 
 on:
 
@@ -16,7 +16,7 @@ jobs:
       run: |
         sudo apt install unzip
         sudo apt install wget
-        wget https://github.com/ifgglobal/practicals/releases/download/v4-release/code.zip
+        wget https://github.com/ifgglobal/practicals/releases/download/V4-release/code.zip
         unzip code.zip
         rm code.zip
         rm blank
