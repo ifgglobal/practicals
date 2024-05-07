@@ -7,6 +7,11 @@
     "objectClass": "hideall"
   },
   
+  {
+    "objectName": "Chapter 2",
+    "objectClass": "divider"
+  },
+
   
   { "id": 1, "objectName": "null", "objectUrl": "ictX.pdf" },
   
