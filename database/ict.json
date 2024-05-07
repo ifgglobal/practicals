@@ -13,7 +13,7 @@
   {"objectName": "Chapter 4",
     "objectClass": "divider"},
   
-  {"objectName": "Chapter 5 (Power Point)",
+  {"objectName": "Chapter 5 (PowerPoint)",
     "objectClass": "divider"},
   
   {"objectName": "Chapter 5 (Photoshop)",
@@ -25,7 +25,7 @@
   {"objectName": "Chapter 6",
     "objectClass": "divider"},
   
-  { "id": 1, "objectName": "null", "objectUrl": "ictX.pdf" },
+  { "id": 1, "objectName": "demo", "objectUrl": "ictX.pdf" },
   
   
   {
