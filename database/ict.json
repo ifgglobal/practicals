@@ -7,11 +7,23 @@
     "objectClass": "hideall"
   },
   
-  {
-    "objectName": "Chapter 2",
-    "objectClass": "divider"
-  },
+  {"objectName": "Chapter 2",
+    "objectClass": "divider"},
 
+  {"objectName": "Chapter 4",
+    "objectClass": "divider"},
+  
+  {"objectName": "Chapter 5 (Power Point)",
+    "objectClass": "divider"},
+  
+  {"objectName": "Chapter 5 (Photoshop)",
+    "objectClass": "divider"},
+  
+  {"objectName": "Chapter 5 (Illustrator)",
+    "objectClass": "divider"},
+  
+  {"objectName": "Chapter 6",
+    "objectClass": "divider"},
   
   { "id": 1, "objectName": "null", "objectUrl": "ictX.pdf" },
   
