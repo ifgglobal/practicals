@@ -15,13 +15,12 @@
 
   {"objectName": "Chapter 4",
     "objectClass": "divider"},
+
+  { "id": 11, "objectName": "লেখালেখির সাজসজ্জায় ফন্ট স্টাইল নির্বাচন এবং এর সাইজ ও রং নির্ধারণ", "objectUrl": "ict4-1.pdf" },
   
   {"objectName": "Chapter 5 (PowerPoint)",
     "objectClass": "divider"},
   
-  {"objectName": "Chapter 5 (Photoshop)",
-    "objectClass": "divider"},
-
   { "id": 2, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্ট ওপেন করা এবং এস.এস.সি পরীক্ষা নামে প্রেজেন্টেশন সংরক্ষণ করা", "objectUrl": "ict5-1-1.pdf" },
   { "id": 3, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টে নতুন স্লাইড যুক্ত করা এবং বিদ্যমান স্লাইড বাতিল করা", "objectUrl": "ict5-1-2.pdf" },
   { "id": 4, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের স্লাইডে ব্যাকগ্রাউন্ড যুক্ত করা বা ব্যাকগ্রাউন্ড পরিবর্তন করা", "objectUrl": "ict5-1-3.pdf" },
@@ -30,6 +29,9 @@
   { "id": 7, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের স্লাইডের লেখায় স্বতন্ত্রভাবে ট্রানজিশন প্রয়োগ করা", "objectUrl": "ict5-1-6.pdf" },
   { "id": 8, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের স্লাইডে ভিডিও যুক্ত করা", "objectUrl": "ict5-1-7.pdf" },
   { "id": 9, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের প্রেজেন্টেশনে স্লাইড প্রদর্শন করা", "objectUrl": "ict5-1-8.pdf" }, 
+  
+  {"objectName": "Chapter 5 (Photoshop)",
+    "objectClass": "divider"},
   
   {"objectName": "Chapter 5 (Illustrator)",
     "objectClass": "divider"},
