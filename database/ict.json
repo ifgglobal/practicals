@@ -21,6 +21,8 @@
   
   {"objectName": "Chapter 5 (Photoshop)",
     "objectClass": "divider"},
+
+  { "id": 2, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্ট ওপেন করা এবং এস.এস.সি পরীক্ষা নামে প্রেজেন্টেশন সংরক্ষণ করা", "objectUrl": "ict5-1-1.pdf" },
   
   {"objectName": "Chapter 5 (Illustrator)",
     "objectClass": "divider"},
