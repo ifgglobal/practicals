@@ -157,6 +157,17 @@ iframe {
   padding:0;
 }
 
+.divider {
+  font-family: kanit !important;
+  background: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: none !important;
+  text-align: left !important;
+}
+
 .sites {
   font-family: hindsiliguri;
   font-size: calc(28px + 0.390625vw);
@@ -179,17 +190,10 @@ iframe {
   border: 1.25px solid rgba(255, 255, 255, 0.3);
 }
 
-.divider {
-  font-family: kanit !important;
-  background: none !important;
-  border-radius: none !important;
-  box-shadow: none !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  border: none !important;
-  text-align: left !important;
+.inactiveClassA {
+  pointer-events: none;
+  cursor: default;
 }
-
 .hideall {
   display: none;
 }
