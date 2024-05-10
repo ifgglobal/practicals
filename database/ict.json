@@ -12,17 +12,17 @@
   
   {"objectName": "Chapter 2",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
 
   {"objectName": "Chapter 4",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
 
   { "id": 2, "objectName": "লেখালেখির সাজসজ্জায় ফন্ট স্টাইল নির্বাচন এবং এর সাইজ ও রং নির্ধারণ", "objectUrl": "ict4-1.pdf" },
   
   {"objectName": "Chapter 5 (PowerPoint)",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
   
   { "id": 3, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্ট ওপেন করা এবং এস.এস.সি পরীক্ষা নামে প্রেজেন্টেশন সংরক্ষণ করা", "objectUrl": "ict5-1-1.pdf" },
   { "id": 4, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টে নতুন স্লাইড যুক্ত করা এবং বিদ্যমান স্লাইড বাতিল করা", "objectUrl": "ict5-1-2.pdf" },
@@ -35,15 +35,15 @@
   
   {"objectName": "Chapter 5 (Photoshop)",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
   
   {"objectName": "Chapter 5 (Illustrator)",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
   
   {"objectName": "Chapter 6",
     "anchorClass": "inactiveClassA",
-    "objectClass": "divider"},
+    "liClass": "divider"},
   
   
   {
