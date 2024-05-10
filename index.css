@@ -159,6 +159,7 @@ iframe {
 
 .divider {
   font-family: kanit !important;
+  font-size: calc(35px + 0.390625vw) !important;
   background: none !important;
   border-radius: none !important;
   box-shadow: none !important;
@@ -166,6 +167,7 @@ iframe {
   -webkit-backdrop-filter: none !important;
   border: none !important;
   text-align: left !important;
+  margin-left: 0.5rem !important;
 }
 
 .sites {
