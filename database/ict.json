@@ -10,17 +10,17 @@
 
   { "id": 1, "objectName": "Question List", "objectUrl": "ict practical.pdf" },
   
-  {"objectName": "Chapter 2",
+  {"objectName": "&raquo; Chapter 2",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
-  {"objectName": "Chapter 4",
+  {"objectName": "&raquo; Chapter 4",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
   { "id": 2, "objectName": "লেখালেখির সাজসজ্জায় ফন্ট স্টাইল নির্বাচন এবং এর সাইজ ও রং নির্ধারণ", "objectUrl": "ict4-1.pdf" },
   
-  {"objectName": "Chapter 5 (PowerPoint)",
+  {"objectName": "&raquo; Chapter 5 (PowerPoint)",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
@@ -33,15 +33,15 @@
   { "id": 9, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের স্লাইডে ভিডিও যুক্ত করা", "objectUrl": "ict5-1-7.pdf" },
   { "id": 10, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের প্রেজেন্টেশনে স্লাইড প্রদর্শন করা", "objectUrl": "ict5-1-8.pdf" }, 
   
-  {"objectName": "Chapter 5 (Photoshop)",
+  {"objectName": "&raquo; Chapter 5 (Photoshop)",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
-  {"objectName": "Chapter 5 (Illustrator)",
+  {"objectName": "&raquo; Chapter 5 (Illustrator)",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
-  {"objectName": "Chapter 6",
+  {"objectName": "&raquo; Chapter 6",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
