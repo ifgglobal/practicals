@@ -166,8 +166,7 @@ iframe {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   border: none !important;
-  text-align: left !important;
-  margin-left: 0.5rem !important;
+  text-align: center !important;
 }
 
 .sites {
