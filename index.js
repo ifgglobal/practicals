@@ -74,7 +74,7 @@ $.getJSON( "/database/"+dbName+".json?cache=0", function(data) {
   $.each( data, function(key, val) {
  var objectUrlEnc = encodeURIComponent("/practicals/" + dbName + "/" + val.objectUrl);
  var objectNameEnc = encodeURIComponent(val.objectName);
- var $clonePopulate = $("<a href='/pedestal/viewer?f="+objectUrlEnc+"&n="+objectNameEnc+"' class='"+val.objectClass+"'><li class='sites'>"+val.objectName+"</li></a>");
+ var $clonePopulate = $("<a href='/pedestal/viewer?f="+objectUrlEnc+"&n="+objectNameEnc+"' class='"+val.objectClass+" "+val.anchorClass+"'><li class='sites'>"+val.objectName+"</li></a>");
  $("#prcList").append($clonePopulate);            
  });
 });
