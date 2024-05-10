@@ -8,17 +8,20 @@
   },
 
 
-  { "id": 1, "objectName": "Practical List", "objectUrl": "ict practical.pdf" },
+  { "id": 1, "objectName": "Question List", "objectUrl": "ict practical.pdf" },
   
   {"objectName": "Chapter 2",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
 
   {"objectName": "Chapter 4",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
 
   { "id": 2, "objectName": "লেখালেখির সাজসজ্জায় ফন্ট স্টাইল নির্বাচন এবং এর সাইজ ও রং নির্ধারণ", "objectUrl": "ict4-1.pdf" },
   
   {"objectName": "Chapter 5 (PowerPoint)",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
   
   { "id": 3, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্ট ওপেন করা এবং এস.এস.সি পরীক্ষা নামে প্রেজেন্টেশন সংরক্ষণ করা", "objectUrl": "ict5-1-1.pdf" },
@@ -31,12 +34,15 @@
   { "id": 10, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের প্রেজেন্টেশনে স্লাইড প্রদর্শন করা", "objectUrl": "ict5-1-8.pdf" }, 
   
   {"objectName": "Chapter 5 (Photoshop)",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
   
   {"objectName": "Chapter 5 (Illustrator)",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
   
   {"objectName": "Chapter 6",
+    "aHighClass": "dividerATag",
     "objectClass": "divider"},
   
   
