@@ -14,8 +14,8 @@
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
-  { "id": 2, "objectName": "সফটওয়্যার ইন্সটলেশন", "objectUrl": "ict2-1.pdf" },
-  { "id": 3, "objectName": "সফটওয়্যার আনইন্সটলেশন", "objectUrl": "ict2-2.pdf" },
+  { "id": 2, "objectName": "সফটওয়্যার ইনস্টলেশন", "objectUrl": "ict2-1.pdf" },
+  { "id": 3, "objectName": "সফটওয়্যার আনইনস্টলেশন", "objectUrl": "ict2-2.pdf" },
   { "id": 4, "objectName": "সফটওয়্যার ডিলিট", "objectUrl": "ict2-3.pdf" },
   { "id": 5, "objectName": "সিস্টেম সঠিকভাবে চলছে কিন্তু মনিটরে কিছু দেখা যাচ্ছে না- এ সমস্যার সাধারণ সমাধান", "objectUrl": "ict2-4.pdf" },
   { "id": 6, "objectName": "সিস্টেম অত্যন্ত গরম হয়ে যায় এবং অস্বাভাবিকভাবে হঠাৎ বন্ধ হয়ে যায়- এ সমস্যার সাধারণ সমাধান", "objectUrl": "ict2-5.pdf" },
