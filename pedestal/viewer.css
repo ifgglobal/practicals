@@ -22,7 +22,7 @@ iframe {
   transform: translate(-50%, -50%);
 }*/
 .prcName {
-  font-family: hindsiliguri;
+  font-family: hindsiliguri, Arial, Helvetica, sans-serif;
   font-size: calc(22px + 0.390625vw);
   text-align: center;
   color: rgba(249, 249, 250, 1);
