@@ -170,7 +170,7 @@ iframe {
 }
 
 .sites {
-  font-family: hindsiliguri, florensa;
+  font-family: hindsiliguri, Arial, Helvetica, sans-serif;
   font-size: calc(28px + 0.390625vw);
   text-align: center;
   color: rgba(249, 249, 250, 1);
