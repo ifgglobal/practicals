@@ -34,7 +34,7 @@
   <div class="container">
 
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.4 33.5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.4 33.5" width="256px" height="84.5px">
   <defs>
     <style>
       .a {
@@ -80,12 +80,13 @@ var rayID = document.getElementById("rayID");
   let result = "";
   for (let i = 0; i < length; i++) {
     result += chars.charAt(Math.floor(Math.random() * chars.length));
-  }
+  };
   return result;
-    }
+      rayID.innerHTML = result;
+    };
     createRandomString(12);
 
-    rayID.innerHTML = result;
+    
   </script>
 </body>
 
