@@ -8,16 +8,25 @@
   },
   
   
+  {"objectName": "&raquo; Class 09",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
   { "id": 1, "objectName": "একটি আয়তাকার বস্তুর একটি পৃষ্ঠের ক্ষেত্রফল ও বস্তুর আয়তন নির্ণয়", "objectUrl": "phy1.pdf" },
   { "id": 2, "objectName": "একটি বৃত্তাকার প্রস্থচ্ছেদ বিশিষ্ট তারের প্রস্থচ্ছেদের ক্ষেত্রফল নির্ণয়", "objectUrl": "phy2.pdf" },
   { "id": 3, "objectName": "কোন বস্তুর উপর প্রযুক্ত বল পরিমাপ", "objectUrl": "phy3.pdf" },
   { "id": 4, "objectName": "বরফের গলনাঙ্ক নির্ণয়", "objectUrl": "phy4.pdf" },
   { "id": 5, "objectName": "পানির স্ফুটনাঙ্ক নির্ণয়", "objectUrl": "phy5.pdf" },
+
+  {"objectName": "&raquo; Class 10",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+  
   { "id": 6, "objectName": "একটি ঢালু তক্তার উপর মার্বেল গড়িয়ে পড়তে দিয়ে গড় দ্রুতি নির্ণয়", "objectUrl": "phy6.pdf" },
   { "id": 7, "objectName": "নানাবিধ কার্যক্রমের মাধ্যমে বিভিন্ন প্রকার গতির মডেল প্রদর্শন", "objectUrl": "phy7.pdf" },
   { "id": 8, "objectName": "অবতল দর্পণ ব্যবহার করে প্রতিবিম্ব সৃষ্টি ও প্রদর্শন", "objectUrl": "phy8.pdf" },
   { "id": 9, "objectName": "উত্তল লেন্স ব্যবহার করে প্রতিবিম্ব সৃষ্টি ও প্রদর্শন", "objectUrl": "phy9.pdf" },
-  
+
   
   {
     "dbFooter": "meta",
