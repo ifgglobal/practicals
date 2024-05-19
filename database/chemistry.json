@@ -7,11 +7,21 @@
     "objectClass": "hideall"
   },
   
-  
+
+  {"objectName": "&raquo; Class 09",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
   { "id": 1, "objectName": "ঊর্ধ্বপাতন প্রক্রিয়ার মাধ্যমে মিশ্রণ থেকে দুইটি উপাদানকে পৃথকীকরণ", "objectUrl": "chem1.pdf" },
   { "id": 2, "objectName": "ধাতব কার্বনেট যৌগের সাথে লঘু এসিডের বিক্রিয়ায় উৎপন্ন গ্যাস শনাক্তকরণ", "objectUrl": "chem2.pdf" },
   { "id": 3, "objectName": "দ্রাব্যতা ও বিদ্যুৎ পরিবাহিতা পরীক্ষার মাধ্যমে আয়নিক ও সমযোজী যৌগ শনাক্তকরণ", "objectUrl": "chem3.pdf" },
   { "id": 4, "objectName": "তুঁতের কেলাস পানির শতকরা পরিমাণ নির্ণয়", "objectUrl": "chem4.pdf" },
+ 
+  {"objectName": "&raquo; Class 10",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
+  { "id": 5, "objectName": "লিটমাস পেপার ও pH পেপার ব্যবহার করে সরবরাহকৃত খাদ্য থেকে অম্লীয়/ক্ষারীয় খাদ্যের তালিকা প্রণয়ন", "objectUrl": "chem10.pdf" },
   
   
   {
