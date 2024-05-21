@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap');
 @font-face {
   font-family: hindsiliguri;
   src: url(/fonts/hindsiliguri.woff2);
@@ -170,7 +171,7 @@ iframe {
 }
 
 .sites {
-  font-family: hindsiliguri, Arial, Helvetica, sans-serif;
+  font-family: "Hind Siliguri";
   font-size: calc(28px + 0.390625vw);
   text-align: center;
   color: rgba(249, 249, 250, 1);
