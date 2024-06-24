@@ -1,6 +1,6 @@
 @font-face {
   font-family: hindsiliguri;
-  src: url(/fonts/hindsiliguri.woff2);
+  src: url(/fonts/hindsiliguri.ttf);
 }
 body {
   background-color: rgba(56, 56, 61, 1);
@@ -22,7 +22,7 @@ iframe {
   transform: translate(-50%, -50%);
 }*/
 .prcName {
-  font-family: hindsiliguri, Arial, Helvetica, sans-serif;
+  font-family: hindsiliguri;
   font-size: calc(22px + 0.390625vw);
   text-align: center;
   color: rgba(249, 249, 250, 1);
