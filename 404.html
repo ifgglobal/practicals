@@ -69,24 +69,23 @@
     </p>
 
     <p>
-      <small><strong>Ray ID:</strong id="rayID>::RAY_ID::</small>
+      <small><strong>Ray ID:</strong><p id="rayIDbox"></p></small>
     </p>
   </div>
   <script>
-var rayID = document.getElementById("rayID");
+var rayIDbox = document.getElementById("rayIDbox");
     
-    function createRandomString(length) {
-  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  let result = "";
-  for (let i = 0; i < length; i++) {
-    result += chars.charAt(Math.floor(Math.random() * chars.length));
-  };
-  return result;
-      rayID.innerHTML = result;
-    };
-    createRandomString(12);
-
+function rayIDgen() {
+    var length = 36,
+        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        rayVal = "";
+    for (var i = 0, n = charset.length; i < length; ++i) {
+        rayVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+    return rayVal;
+}
     
+rayIDbox.innerHTML = rayIDgen();
   </script>
 </body>
 
