@@ -53,6 +53,8 @@
   {"objectName": "&raquo; Chapter 5 (Illustrator)",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
+
+  { "id": 23, "objectName": "ইলাস্ট্রেটরে অবজেক্ট ছোট-বড় করা এবং অবজেক্টের অবস্থান পরিবর্তন করা", "objectUrl": "ict5-3-2.pdf" },
   
   {"objectName": "&raquo; Chapter 6",
     "anchorClass": "inactiveClassA",
