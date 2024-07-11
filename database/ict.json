@@ -51,14 +51,15 @@
     "liClass": "divider"},
 
   { "id": 23, "objectName": "ফটোশপে একাধিক লেয়ারকে একীভূত করা", "objectUrl": "ict5-2-6.pdf" },
+  { "id": 24, "objectName": "ফটোশপে ক্রপ টুল ব্যবহার করে হেলানো ছবি ক্রপ করা", "objectUrl": "ict5-2-7.pdf" },
   
   {"objectName": "&raquo; Chapter 5 (Illustrator)",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
-  { "id": 24, "objectName": "ইলাস্ট্রেটরে অবজেক্ট ছোট-বড় করা এবং অবজেক্টের অবস্থান পরিবর্তন করা", "objectUrl": "ict5-3-2.pdf" },
-  { "id": 25, "objectName": "ইলাস্ট্রেটরে পাথের কোনো অবস্থানে অ্যাংকর পয়েন্ট যোগ করা এবং বাদ দেওয়া", "objectUrl": "ict5-3-4.pdf" },
-  { "id": 26, "objectName": "ইলাস্ট্রেটরে বর্গাকার বা আয়তাকার বদ্ধ পাথের মধ্যে লেখা বিন্যস্ত করা", "objectUrl": "ict5-3-5.pdf" },
+  { "id": 25, "objectName": "ইলাস্ট্রেটরে অবজেক্ট ছোট-বড় করা এবং অবজেক্টের অবস্থান পরিবর্তন করা", "objectUrl": "ict5-3-2.pdf" },
+  { "id": 26, "objectName": "ইলাস্ট্রেটরে পাথের কোনো অবস্থানে অ্যাংকর পয়েন্ট যোগ করা এবং বাদ দেওয়া", "objectUrl": "ict5-3-4.pdf" },
+  { "id": 27, "objectName": "ইলাস্ট্রেটরে বর্গাকার বা আয়তাকার বদ্ধ পাথের মধ্যে লেখা বিন্যস্ত করা", "objectUrl": "ict5-3-5.pdf" },
   
   {"objectName": "&raquo; Chapter 6",
     "anchorClass": "inactiveClassA",
