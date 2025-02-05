@@ -3,173 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <title>Cherry Cloud - Continue Payment</title>
-    <style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">  <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css"> <style>
         body {
-            font-family: "Rubik", sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
             margin: 0;
-            padding: 20px;
-            background-color: #f8f8f8;
+            align-items: center;
+            justify-content: center;
+            background-color: #222; /* Darker background to match Cyborg theme */
+            color: #eee; /* Lighter text color */
         }
-        header {
-            background-color: #ff4d4d;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            border-radius: 12px;
-        }
+
         .container {
-            background-color: white;
-            padding: 20px;
+            background-color: #333; /* Darker container background */
+            padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+            text-align: center;
             max-width: 600px;
-            margin: 20px auto;
         }
+
         h1 {
-            color: #333;
+            font-family: "Archivo Black";
+            font-size: 4.3em;
+            color: #00ff80; /* Cyborg green */
+            margin-bottom: 15px;
         }
-        .billing-info {
-            margin: 20px 0;
+
+        h2 {
+            font-size: 1.8em;
+            font-family: "Archivo Black";
+            color: #ddd;
+            margin-bottom: 25px;
         }
-        .billing-info p {
-            margin: 5px 0;
-        }
-        .bill {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-        .total {
-            font-weight: bold;
+
+        p {
             font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .hetzner-ad {
+            margin-top: 30px;
+            background-color: #444; /* Even darker ad background */
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .hetzner-ad img {
+            max-width: 90%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .hetzner-ad p {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        .adpic {
+          width: 65%;
+          border-radius: 0.5rem;
         }
     </style>
 </head>
 <body>
-    <header>
-      <h1>
-        
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="120px" height="120px" viewBox="0 0 500 500"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.16, written by Peter Selinger 2001-2019
-</metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2193 4149 c-18 -5 -49 -25 -68 -45 -34 -34 -35 -36 -35 -117 l0 -83
--41 -39 c-61 -60 -149 -197 -149 -234 0 -24 18 -7 89 84 40 52 76 95 79 95 2
-0 2 -25 -2 -55 -10 -89 9 -63 38 53 16 59 33 119 38 135 12 31 51 62 91 72 26
-7 27 10 27 76 0 76 -1 77 -67 58z"/>
-<path d="M2894 3850 c-72 -60 -171 -152 -219 -204 l-87 -95 -62 6 c-112 10
--176 -41 -184 -148 -3 -45 0 -65 17 -96 l22 -38 -25 -60 c-14 -33 -25 -54 -26
--46 -1 34 -74 164 -121 216 -58 62 -101 90 -209 135 -40 17 -89 42 -107 56
--33 25 -73 90 -73 119 0 21 -44 20 -65 -2 -23 -23 -16 -120 15 -227 19 -63 21
--81 11 -84 -8 -3 -28 -17 -45 -33 l-31 -28 48 -1 c57 0 82 -20 122 -101 62
--122 207 -226 348 -250 79 -13 83 -27 12 -45 -41 -11 -63 -10 -153 7 -59 10
--150 19 -204 19 l-98 0 -20 33 c-28 44 -23 89 11 101 40 14 79 -1 121 -45 43
--45 49 -34 15 25 -30 54 -67 78 -124 83 -46 5 -51 3 -76 -27 -33 -39 -36 -98
--7 -152 l19 -37 -41 -13 c-42 -14 -42 -14 -77 20 -19 19 -64 49 -100 66 -57
-27 -77 31 -146 31 -68 0 -90 -5 -145 -31 -113 -53 -171 -118 -210 -235 -29
--84 -24 -215 10 -303 49 -127 152 -191 305 -189 305 4 535 284 422 514 -15 31
--27 58 -27 61 0 15 120 40 193 41 91 1 190 -19 184 -37 -1 -6 -52 -35 -112
--65 -109 -53 -109 -53 -87 -71 12 -10 27 -20 33 -22 6 -2 -3 -31 -19 -68 -43
--93 -77 -210 -97 -326 l-18 -101 -46 14 c-158 49 -336 -71 -385 -262 -57 -216
-55 -465 239 -534 148 -56 361 -1 507 129 40 36 62 65 79 107 12 32 35 79 51
-104 51 83 34 196 -41 282 -18 20 -30 40 -27 45 3 4 27 120 55 258 28 137 56
-267 62 289 l12 40 23 -115 c18 -89 103 -401 180 -662 4 -13 -5 -18 -38 -23
--115 -19 -208 -95 -248 -203 -84 -221 107 -503 391 -577 136 -36 252 -1 353
-105 100 105 152 251 143 405 -6 117 -33 188 -98 260 -73 79 -142 110 -244 109
--66 0 -90 -5 -135 -27 -30 -14 -56 -24 -58 -22 -2 2 -38 117 -78 256 -94 321
--124 462 -124 581 l0 93 28 -28 c24 -24 27 -35 27 -95 1 -138 66 -262 215
--415 l89 -92 1 48 0 49 51 -38 c147 -108 459 -171 567 -115 l44 22 -51 26
-c-38 18 -59 37 -79 71 l-27 47 -3 -33 c-2 -18 4 -46 12 -64 21 -41 22 -41 -21
--23 -61 26 -91 63 -159 195 -35 69 -72 139 -84 156 l-20 31 35 27 c52 40 132
-74 191 82 158 19 338 -88 429 -256 40 -75 45 -60 12 33 -63 172 -201 277 -378
-285 -105 5 -171 -12 -255 -66 l-60 -39 -44 38 c-90 77 -202 119 -325 119 -59
-0 -62 1 -109 48 l-47 49 26 31 c30 36 100 72 139 72 15 0 45 -9 66 -20 45 -23
-46 -21 25 35 -51 143 29 296 177 340 66 19 111 19 178 -1 56 -16 90 -35 126
--66 22 -19 22 -19 43 26 42 86 151 159 261 174 67 10 176 -2 228 -24 50 -21
-50 -10 1 26 -136 98 -352 71 -478 -60 l-48 -50 -59 27 c-53 25 -70 28 -169 28
--101 0 -115 -2 -168 -29 -110 -53 -167 -137 -177 -259 l-5 -68 -52 -18 c-28
--10 -70 -30 -92 -44 -22 -15 -42 -27 -44 -27 -7 0 12 106 26 145 32 86 35 91
-78 92 22 1 55 10 72 20 47 28 88 101 91 161 3 59 21 87 117 176 85 79 197 151
-282 181 43 16 63 28 65 41 3 20 -56 126 -73 130 -5 1 -69 -46 -141 -106z m131
-20 c3 -5 -21 -23 -55 -40 -33 -17 -60 -28 -60 -26 0 7 92 76 101 76 4 0 11 -4
-14 -10z m-1048 -406 c135 -56 204 -112 268 -219 37 -63 69 -151 59 -167 -3 -5
--21 16 -40 47 -49 83 -111 153 -177 201 -56 42 -165 99 -173 92 -2 -3 37 -39
-86 -82 101 -86 183 -180 225 -258 l28 -51 -35 6 c-64 10 -151 59 -209 117 -63
-63 -136 200 -163 306 -24 94 -23 99 24 65 22 -16 70 -41 107 -57z m580 4 c25
--23 31 -74 13 -109 -12 -22 -60 -49 -88 -49 -11 0 -31 9 -46 21 -36 29 -37 99
--1 134 32 33 89 34 122 3z m-1182 -573 c19 -14 35 -30 35 -36 0 -5 -19 -9 -42
--9 -88 0 -157 -56 -218 -177 l-30 -58 0 65 c0 86 14 133 53 177 70 79 133 91
-202 38z m874 -117 c-26 -84 -50 -185 -120 -528 -30 -143 -30 -143 -76 -119
--24 12 -58 19 -94 19 -32 0 -70 5 -84 10 -25 9 -26 13 -20 53 14 87 37 190 55
-251 l20 63 45 1 c98 1 165 73 165 176 0 31 7 65 19 86 20 38 73 80 101 80 16
-0 15 -9 -11 -92z m-630 -14 c42 -54 11 -133 -47 -119 -39 9 -56 30 -56 69 0
-69 64 100 103 50z m461 0 c0 -11 -67 -98 -95 -124 l-28 -25 7 45 c8 52 17 65
-65 90 38 20 51 24 51 14z m622 -33 c61 -21 102 -41 96 -46 -2 -2 -29 0 -61 4
--31 4 -57 4 -57 0 0 -4 32 -25 71 -45 80 -42 162 -111 187 -158 29 -55 70
--156 61 -150 -5 3 -35 40 -68 82 -57 75 -149 172 -163 172 -12 0 154 -255 195
--300 l38 -42 -28 7 c-47 11 -147 62 -201 102 -43 32 -57 51 -87 118 -36 80
--82 153 -71 110 16 -57 46 -208 43 -212 -9 -8 -108 136 -138 202 -37 77 -50
-162 -28 177 21 14 146 2 211 -21z m-630 -74 c-11 -25 -29 -50 -40 -56 -16 -9
--13 0 14 40 19 28 34 56 34 62 0 6 3 8 6 4 3 -3 -3 -26 -14 -50z m-371 -548
-c34 -17 23 -39 -19 -39 -25 0 -54 -10 -84 -29 -59 -38 -103 -123 -120 -236
-l-12 -80 -12 40 c-18 57 -17 153 2 216 17 59 83 133 126 142 30 7 96 -1 119
--14z m330 -208 c32 -33 36 -58 14 -100 -16 -32 -33 -41 -75 -41 -41 0 -53 20
--45 77 14 94 52 117 106 64z m838 -167 c29 -37 27 -79 -5 -111 -47 -47 -124
--9 -124 63 0 71 86 102 129 48z m-443 -14 c-45 -54 -56 -126 -32 -215 19 -73
-41 -110 100 -171 29 -30 49 -54 46 -54 -18 0 -129 81 -159 115 -100 115 -101
-265 -1 332 18 13 42 23 52 23 18 0 18 -2 -6 -30z"/>
-<path d="M1377 3549 c-62 -15 -112 -45 -159 -98 -88 -97 -103 -239 -38 -365
-l32 -64 31 12 c18 6 33 11 35 12 2 1 -11 28 -30 60 -29 52 -33 67 -33 134 0
-112 46 184 145 229 81 37 172 25 260 -34 l51 -34 -23 41 c-28 50 -92 93 -159
-107 -56 12 -60 12 -112 0z"/>
-<path d="M3625 3136 c-22 -7 -54 -20 -71 -29 -31 -16 -104 -90 -104 -106 0 -5
-35 9 78 30 94 47 161 61 235 49 152 -24 248 -147 216 -275 -12 -47 -32 -69
--98 -108 l-43 -25 86 5 c82 6 89 4 151 -26 103 -51 175 -160 175 -266 0 -100
--69 -203 -168 -252 -53 -26 -65 -28 -172 -27 -114 1 -144 7 -275 60 -20 8 -20
-8 -1 -21 18 -28 18 -28 -5 -46 -68 -51 -241 -65 -319 -24 l-35 18 19 -22 c80
--89 227 -101 367 -30 57 28 58 28 101 12 31 -12 76 -17 158 -17 144 -1 202 19
-290 101 102 94 137 201 106 323 -30 117 -102 206 -206 257 l-58 28 5 76 c9
-121 -28 200 -120 263 -91 61 -217 82 -312 52z"/>
-<path d="M2711 2157 c-2 -47 68 -149 109 -160 10 -3 25 2 32 10 10 12 9 17 -7
-26 -25 13 -95 83 -117 117 -14 20 -17 22 -17 7z"/>
-<path d="M3520 1869 c-19 -7 -29 -21 -38 -53 -21 -82 -126 -147 -211 -131 -76
-14 -139 63 -177 137 -28 54 -26 21 2 -41 48 -107 132 -160 236 -148 111 13
-196 95 214 206 4 23 5 41 3 40 -2 0 -15 -5 -29 -10z"/>
-</g>
-</svg>
-        
-      </h1>
-        <h1>Cherry Cloud</h1>
-    </header>
     <div class="container">
-        <h2>Billing Information</h2>
-        <div class="billing-info">
-            <p><strong>Customer Name:</strong> Erik (Under IFGGlobal)</p>
-            <p><strong>Billing Address:</strong> 2131 Coplin Avenue, Phoenix, AZ 85040</p>
-            <p><strong>Billing Number:</strong> +1 602-518-7988</p>
-            <p><strong>Billing Card:</strong> 5184 6288 1601 XXXX</p>
-            <p><strong>Billing Period:</strong> Sep/24</p>
+        <h1>500</h1>
+        <h2>Internal Server Error</h2>
+        <p>The server refused secondary connections. The server returned an empty, unknown, or unexpected response. The server either does not recognize the request method, or it lacks the ability to fulfil the request.</p>
+
+        <div class="hetzner-ad">
+            <p>Powered by <a href="https://www.hetzner.com/">Hetzner</a></p> <br>
+            <p>Get rock-solid, scalable, high-performance, blazing-fast servers that are cost-effective with no MCP and upto 30% off at <a href="https://www.hetzner.com/">Hetzner</a></p>
         </div>
-        <div class="bill">
-            <h3>Invoice Details</h3>
-            <p><strong>Service:</strong> Cloud Server</p>
-            <p><strong>Amount:</strong> $36.32</p>
-            <p><strong>Tax (foreign):</strong> $0.76</p>
-            <p class="total"><strong>Total Amount Due:</strong> $37.08</p>
-        </div>
-        <p style="color: red">Your service has been suspended due to an unpaid balance. Please arrange payment via CherryCloudConsole to restore service. Thank you.</p>
     </div>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> </body>
 </html>
