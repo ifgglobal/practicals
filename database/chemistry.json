@@ -27,6 +27,9 @@
   {"objectName": "&raquo; Extra",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
+
+  { "id": 7, "objectName": "কার্বনেট লবণের সাথে পানি ও এসিড মিশ্রিত করে বিক্রিয়ার হার পরীক্ষা", "objectUrl": "chem7.pdf" },
+  { "id": 8, "objectName": "গ্যালভানিক কোষ গঠন করে বিদ্যুৎ উৎপাদন", "objectUrl": "chem8.pdf" },
   
   
   {
