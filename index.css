@@ -1,26 +1,26 @@
 @font-face {
   font-family: gbnFont;
-  src: url(/fonts/gbnFont.woff2);
+  src: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/fonts/gbnFont.woff2);
   font-display: swap;
 }
 @font-face {
   font-family: RobotoC;
-  src: url(/fonts/RobotoC.woff2);
+  src: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/fonts/RobotoC.woff2);
   font-display: swap;
 }
 @font-face {
   font-family: florensa;
-  src: url(/fonts/florensa.ttf);
+  src: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/fonts/florensa.ttf);
   font-display: swap;
 }
 @font-face {
   font-family: kanit;
-  src: url(/fonts/kanit.woff2);
+  src: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/fonts/kanit.woff2);
   font-display: swap;
 }
 @font-face {
   font-family: outfit;
-  src: url(/fonts/outfit.woff2);
+  src: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/fonts/outfit.woff2);
   font-display: swap;
 }
 
@@ -86,7 +86,7 @@ i {
 }
 
 .bgimgMain {
-  background: url(/bgImage/main.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/main.avif) no-repeat center center;
   /*background-color: rgba(56, 56, 61, 1);*/
   background-size: cover;
   position: fixed;
@@ -109,22 +109,22 @@ i {
   z-index: -100;
 }
 .bgimg-bio {
-  background: url(/bgImage/bio.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/bio.avif) no-repeat center center;
 }
 .bgimg-chem {
-  background: url(/bgImage/chem.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/chem.avif) no-repeat center center;
 }
 .bgimg-hm {
-  background: url(/bgImage/hm.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/hm.avif) no-repeat center center;
 }
 .bgimg-ict {
-  background: url(/bgImage/ict.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/ict.avif) no-repeat center center;
 }
 .bgimg-phy {
-  background: url(/bgImage/phy.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/phy.avif) no-repeat center center;
 }
 .bgimg-info {
-  background: url(/bgImage/info.avif) no-repeat center center;
+  background: url(https://cdn.jsdelivr.net/gh/ifgglobal/practicals@main/bgImage/info.avif) no-repeat center center;
 }
 
 .header {
