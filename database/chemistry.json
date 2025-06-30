@@ -8,7 +8,7 @@
   },
   
 
-  {"objectName": "&raquo; Class 09",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 09 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -17,21 +17,12 @@
   { "id": 3, "objectName": "দ্রাব্যতা ও বিদ্যুৎ পরিবাহিতা পরীক্ষার মাধ্যমে আয়নিক ও সমযোজী যৌগ শনাক্তকরণ", "objectUrl": "chem3.pdf" },
   { "id": 4, "objectName": "তুঁতের কেলাস পানির শতকরা পরিমাণ নির্ণয়", "objectUrl": "chem4.pdf" },
  
-  {"objectName": "&raquo; Class 10",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 10 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
   { "id": 5, "objectName": "দুটি জানা লবণের নির্দিষ্ট আয়তনের এসিড/ক্ষার প্রশমনে প্রয়োজনীয় এসিড/ক্ষারের আয়তন নির্ণয়", "objectUrl": "chem5.pdf" },
   { "id": 6, "objectName": "লিটমাস পেপার ও pH পেপার ব্যবহার করে সরবরাহকৃত খাদ্য থেকে অম্লীয়/ক্ষারীয় খাদ্যের তালিকা প্রণয়ন", "objectUrl": "chem10.pdf" },
-  
-  {"objectName": "&raquo; Extras",
-    "anchorClass": "inactiveClassA",
-    "liClass": "divider"},
-
-  { "id": 7, "objectName": "বর্তনী গঠন করে আয়নিক যৌগের বিদ্যুৎ পরিবাহিতা পরীক্ষা", "objectUrl": "chem6.pdf" },
-  { "id": 8, "objectName": "কার্বনেট লবণের সাথে পানি ও এসিড মিশ্রিত করে বিক্রিয়ার হার পরীক্ষা", "objectUrl": "chem7.pdf" },
-  { "id": 9, "objectName": "গ্যালভানিক কোষ গঠন করে বিদ্যুৎ উৎপাদন", "objectUrl": "chem8.pdf" },
-  { "id": 10, "objectName": "দুটি জানা লবণের দ্রবণে সোডিয়াম হাইড্রোক্সাইড যোগ করে পরিবর্তন পর্যবেক্ষণ", "objectUrl": "chem9.pdf" },
   
   
   {

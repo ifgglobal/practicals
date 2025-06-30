@@ -1,0 +1,34 @@
+END USER LICENSE AGREEMENT (EULA)
+Last Updated: June 30, 2025
+This End User License Agreement (“Agreement”) is a legal agreement between you (“User,” “you”) and IFG Global (“we,” “our,” “us”), governing your use of the website Practicals (the “Site”), available at [your domain or URL].
+By accessing or using the Site, you agree to be bound by the terms of this Agreement. If you do not agree to these terms, do not use the Site.
+1. License Grant
+We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Site for personal, non-commercial, educational purposes only, in accordance with this Agreement.
+2. Restrictions
+You agree not to:
+- Copy, modify, alter, or create derivative works from any content or files hosted on the Site.
+- Download, distribute, reproduce, republish, or share any embedded content or files outside the Site.
+- Use the Site for any unlawful purpose or in violation of applicable laws.
+- Reverse engineer, decompile, or attempt to extract the source code of any part of the Site.
+- Bypass, disable, or interfere with any security or access controls on the Site.
+All embedded files and materials are the property of IFG Global or its licensors and may not be shared or redistributed.
+3. Intellectual Property
+All content, materials, design elements, and embedded files on the Site are owned by IFG Global or its licensors and are protected by intellectual property laws. You do not acquire any ownership rights by using the Site.
+4. No User Accounts
+As of now, no user registration or account creation is required to access the Site. We reserve the right to introduce user accounts in the future and modify this Agreement accordingly.
+5. Termination
+We reserve the right to terminate or restrict your access to the Site at our sole discretion, without notice, if you violate any terms of this Agreement.
+6. Disclaimer of Warranties
+The Site is provided “as is” and “as available.” IFG Global disclaims all warranties of any kind, whether express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+7. Limitation of Liability
+To the fullest extent permitted by law, IFG Global shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of or inability to use the Site.
+8. Cookie Policy
+This Site may use cookies to enhance user experience, track usage, and improve the site’s performance. By using the Site, you consent to the use of cookies. You can disable cookies through your browser settings, though some features of the Site may not function properly as a result.
+9. Governing Law
+This Agreement is governed by and construed in accordance with the laws of [Insert Your Jurisdiction], without regard to its conflict of laws principles.
+10. Changes to This Agreement
+We may update or modify this Agreement at any time. Continued use of the Site after changes are posted constitutes your acceptance of the updated Agreement.
+11. Contact Information
+For questions about this Agreement, please contact us at:
+Email: contact@ifgglobal.eu.org
+Business Name: IFG Global

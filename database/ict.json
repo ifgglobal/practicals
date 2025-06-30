@@ -10,7 +10,7 @@
 
   { "id": 1, "objectName": "আইসিটি প্র্যাক্টিক্যাল এর তালিকা", "objectUrl": "ictQNL.pdf" },
   
-  {"objectName": "&raquo; Chapter 2",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 2 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -25,7 +25,7 @@
   { "id": 10, "objectName": "মাউস ডিটেক্ট করে না কিংবা মাউস কাজ করে না- এ সমস্যার সাধারণ সমাধান", "objectUrl": "ict2-9.pdf" },
   { "id": 11, "objectName": "প্রিন্টারে প্রিন্ট হচ্ছে না- এ সমস্যার সাধারণ সমাধান", "objectUrl": "ict2-10.pdf" },
 
-  {"objectName": "&raquo; Chapter 4",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 4 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -35,7 +35,7 @@
   { "id": 15, "objectName": "ওয়ার্ড প্রসেসিং সফটওয়্যারে বানান ও ব্যাকরণ পরীক্ষা", "objectUrl": "ict4-4.pdf" },
   { "id": 16, "objectName": "মাইক্রোসফট এক্সেলে যোগ,বিয়োগ,গুণ ও ভাগের ব্যবহার", "objectUrl": "ict4-5.pdf" },
   
-  {"objectName": "&raquo; Chapter 5 (PowerPoint)",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 5 (PowerPoint) &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
@@ -48,7 +48,7 @@
   { "id": 23, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের স্লাইডে ভিডিও যুক্ত করা", "objectUrl": "ict5-1-7.pdf" },
   { "id": 24, "objectName": "মাইক্রোসফট পাওয়ারপয়েন্টের প্রেজেন্টেশনে স্লাইড প্রদর্শন করা", "objectUrl": "ict5-1-8.pdf" }, 
   
-  {"objectName": "&raquo; Chapter 5 (Photoshop)",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 5 (Photoshop) &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -60,7 +60,7 @@
   { "id": 30, "objectName": "ফটোশপে একাধিক লেয়ারকে একীভূত করা", "objectUrl": "ict5-2-6.pdf" },
   { "id": 31, "objectName": "ফটোশপে ক্রপ টুল ব্যবহার করে হেলানো ছবি ক্রপ করা", "objectUrl": "ict5-2-7.pdf" },
   
-  {"objectName": "&raquo; Chapter 5 (Illustrator)",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 5 (Illustrator) &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -70,7 +70,7 @@
   { "id": 35, "objectName": "ইলাস্ট্রেটরে পাথের কোনো অবস্থানে অ্যাংকর পয়েন্ট যোগ করা এবং বাদ দেওয়া", "objectUrl": "ict5-3-4.pdf" },
   { "id": 36, "objectName": "ইলাস্ট্রেটরে বর্গাকার বা আয়তাকার বদ্ধ পাথের মধ্যে লেখা বিন্যস্ত করা", "objectUrl": "ict5-3-5.pdf" },
 
-  {"objectName": "&raquo; Chapter 6",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Chapter 6 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 

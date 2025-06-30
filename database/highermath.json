@@ -8,7 +8,7 @@
   },
   
 
-  {"objectName": "&raquo; Class 09",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 09 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
@@ -21,7 +21,7 @@
   { "id": 7, "objectName": "6 সে.মি. , 8 সে.মি. ও 10 সে.মি. বাহুবিশিষ্ট একটি ত্রিভুজের অন্তর্বৃত্ত অঙ্কন কর এবং ব্যাসার্ধ নির্ণয় কর", "objectUrl": "hm4.4.pdf" },
   { "id": 8, "objectName": "6.5 সে.মি. , 7 সে.মি. ও 7.5 সে.মি. বাহুবিশিষ্ট একটি ত্রিভুজের বহির্বৃত্ত অঙ্কন কর ও ব্যাসার্ধ নির্ণয় কর", "objectUrl": "hm4.5.pdf" },
 
-  {"objectName": "&raquo; Class 10",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 10 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   

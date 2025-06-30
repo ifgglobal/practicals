@@ -1,46 +1,68 @@
 @font-face {
-  font-family: hindsiliguri;
-  src: url(/fonts/hindsiliguri.ttf);
+  font-family: gbnFont;
+  src: url(/fonts/gbnFont.woff2);
+  font-display: swap;
+}
+@font-face {
+  font-family: RobotoC;
+  src: url(/fonts/RobotoC.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: florensa;
   src: url(/fonts/florensa.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: kanit;
   src: url(/fonts/kanit.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: outfit;
   src: url(/fonts/outfit.woff2);
+  font-display: swap;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
-  all: unset;
+  text-decoration: none;
+  color: inherit;
 }
 
 iframe {
+  width: 100%;
   height: 100vh;
-  width: 100vw;
   border: none;
 }
 
-.preloaderHolder {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+i {
+  overflow: auto;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .preloader {
@@ -49,152 +71,373 @@ iframe {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  z-index: 99;
+  z-index: 100;
+}
+
+.preloaderHolder {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 100vw;
 }
 
 .bgimgMain {
-  background: url(bgimgMain.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(/bgImage/main.avif) no-repeat center center;
+  /*background-color: rgba(56, 56, 61, 1);*/
   background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  z-index: -99;
+  z-index: -100;
 }
 
 .bgimgSub {
-  background: url(bgimgSub.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  /*background: url(Desktop06.png) no-repeat center center;
+  background-color: rgba(56, 56, 61, 1);*/
   background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  z-index: -99;
+  z-index: -100;
+}
+.bgimg-bio {
+  background: url(/bgImage/bio.avif) no-repeat center center;
+}
+.bgimg-chem {
+  background: url(/bgImage/chem.avif) no-repeat center center;
+}
+.bgimg-hm {
+  background: url(/bgImage/hm.avif) no-repeat center center;
+}
+.bgimg-ict {
+  background: url(/bgImage/ict.avif) no-repeat center center;
+}
+.bgimg-phy {
+  background: url(/bgImage/phy.avif) no-repeat center center;
+}
+.bgimg-info {
+  background: url(/bgImage/info.avif) no-repeat center center;
 }
 
-.main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards_item {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.9rem;
-  margin-bottom: 0.9rem;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.123);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-  border: 1.25px solid rgba(255, 255, 255, 0.3);
-}
-
-.cardBody {
-  height: calc(305px + 0.390625vw);
-  width: calc(305px + 0.390625vw);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.subjectID {
-  font-family: florensa;
-  font-size: calc(49px + 0.390625vw);
-  letter-spacing: 0.1rem;
-  padding: 3px;
+.header {
+  padding: 1.5rem;
   text-align: center;
-  color: rgba(249, 249, 250, 1);
-  /*-webkit-text-stroke: 0.7px rgba(56, 56, 61, 1);*/
 }
 
 .mainID {
-  font-family: kanit;
-  letter-spacing: 1.5px;
-  word-spacing: 3px;
-  font-size: calc(55px + 0.390625vw);
+  font-family: kanit, sans-serif;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+.main {
+  flex: 1;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch; /* Ensure all cards match tallest height */
+}
+
+.cards_item {
+  transition: transform 0.3s ease;
+}
+
+.cards_item:hover {
+  transform: translateY(-5px);
+}
+
+/* Two-column layout with centered fifth card */
+@media (min-width: 600px) and (max-width: 950px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  } /* this comments the code for the hacky fix on grid tablet
+  .cards_item:nth-child(5) {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+  }
+  .cards_item:nth-child(5) .card {
+    width: 100%;
+    max-width: calc(50% - 1.5rem / 2);
+  } */
+}
+
+/* Three-column layout for wide screens */
+@media (min-width: 951px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  } /* this comments the code for the hacky fix on grid desktop
+  .cards_item:nth-child(4) {
+    grid-column: 1 / 2;
+  }
+  .cards_item:nth-child(5) {
+    grid-column: 3 / 3;
+  }
+  .cards_item:nth-child(4) {
+    transform: translateX(33.3333333333%);
+  }
+  .cards_item:nth-child(5) {
+    transform: translateX(-33.3333333333%);
+  } */
+  .cards_item:nth-child(4) .card, .cards_item:nth-child(5) .card {
+    width: 100%;
+  }
+}
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: block;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+.cardBody {
+  min-height: 280px; /* Allow growth beyond 280px */
+  height: auto; /* Let content determine height */
+  max-height: 400px; /* Prevent excessive growth */
+  overflow-y: auto; /* Scroll if text overflows */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color: rgba(249, 249, 250, 1);
-  margin: 0;
-  /*-webkit-text-stroke: 0.7px rgba(56, 56, 61, 1);*/
+  padding: 1rem;
+  scrollbar-width: thin; /* Styled scrollbar for Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.2);
+}
+
+.cardBody::-webkit-scrollbar {
+  width: 6px; /* Styled scrollbar for Chrome/Safari */
+}
+
+.cardBody::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.cardIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cardIcon {
+  transform: scale(1.1);
+}
+
+.subjectID {
+  font-family: florensa, sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  letter-spacing: 0.05rem;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  white-space: normal; /* Allow text wrapping */
+  max-width: 100%; /* Stay within container */
+}
+
+.cardSubtitle {
+  font-family: outfit, sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  white-space: normal; /* Allow text wrapping */
+  max-width: 100%; /* Stay within container */
+}
+
+.card:hover .cardSubtitle {
+  opacity: 1;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .footID {
-  font-family: outfit;
-  letter-spacing: 1.5px;
-  word-spacing: 2px;
-  text-align: center;
-  color: rgba(249, 249, 250, 1);
-  margin: 5px;
-  /*-webkit-text-stroke: 0.7px rgba(56, 56, 61, 1);*/
+  font-family: outfit, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .cardBody {
+    min-height: 220px; /* Allow growth beyond 220px */
+    max-height: 320px;
+    padding: 0.75rem;
+    font-size: clamp(1.2rem, 3vw, 1.5rem); /* Smaller .subjectID */
+  }
+  .subjectID {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+  }
+  .cardSubtitle {
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+  }
+  .main {
+    padding: 1.5rem 0.5rem;
+  }
+  .subjectID {
+    font-size: 2.2rem;
+  }
+  .cardSubtitle {
+    font-size: 1rem;
+  }
 }
 
 .sitesUL {
   list-style: none;
-  margin: 0;
-  padding:0;
-}
-
-.divider {
-  font-family: kanit !important;
-  font-size: calc(35px + 0.390625vw) !important;
-  background: none !important;
-  border-radius: none !important;
-  box-shadow: none !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  border: none !important;
-  text-align: center !important;
+  display: grid;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: stretch; /* Ensure all cards match tallest height */
 }
 
 .sites {
-  font-family: hindsiliguri;
-  font-size: calc(28px + 0.390625vw);
+  font-family: RobotoC, gbnFont, sans-serif;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
   text-align: center;
-  color: rgba(249, 249, 250, 1);
-  /*text-shadow: -0.7px 0 rgba(56, 56, 61, 1) , 0 0.7px rgba(56, 56, 61, 1), 0.7px 0 rgba(56, 56, 61, 1), 0 -0.7px rgba(56, 56, 61, 1);*/
-  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.6rem;
-  margin-bottom: 0.6rem;
-  padding: 4px;
-  
-  background: rgba(255, 255, 255, 0.123);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-  border: 1.25px solid rgba(255, 255, 255, 0.3);
+  /*min-height: 120px; Allow growth beyond 120px */
+  height: auto; /* Let content determine height */
+  max-height: 300px; /* Prevent excessive growth */
+  white-space: normal; /* Allow text wrapping */
+  overflow-y: auto; /* Scroll if text overflows */
+  scrollbar-width: thin; /* Styled scrollbar for Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.2);
+}
+
+.sites:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+.sites::-webkit-scrollbar {
+  width: 6px; /* Styled scrollbar for Chrome/Safari */
+}
+
+.sites::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+/* Responsive styles for sitesUL */
+@media (max-width: 600px) {
+  .sitesUL {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .sites {
+    /* font-size: clamp(1rem, 2vw, 1.2rem); Smaller font to reduce height */
+    /* min-height: 100px;  Allow growth beyond 100px */
+    
+    padding: 0.75rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 950px) {
+  .sitesUL {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  } /*
+  .sites {
+    min-height: 110px;  Allow growth beyond 110px
+    
+  } */
+}
+
+@media (min-width: 951px) {
+  .sitesUL {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+  .divider {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+  }
+}
+
+.divider {
+  font-family: outfit, sans-serif;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
 }
 
 .inactiveClassA {
   pointer-events: none;
   cursor: default;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+  flex: 0 0 100%;
 }
+
 .hideall {
   display: none;
+}
+
+.fax-col1 {
+  color: white;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.fax-col2 {
+  color: white;
+  overflow: hidden;
 }

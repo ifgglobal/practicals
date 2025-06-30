@@ -8,7 +8,7 @@
   },
   
   
-  {"objectName": "&raquo; Class 09",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 09 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
@@ -18,7 +18,7 @@
   { "id": 4, "objectName": "বরফের গলনাঙ্ক নির্ণয়", "objectUrl": "phy4.pdf" },
   { "id": 5, "objectName": "পানির স্ফুটনাঙ্ক নির্ণয়", "objectUrl": "phy5.pdf" },
 
-  {"objectName": "&raquo; Class 10",
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 10 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
