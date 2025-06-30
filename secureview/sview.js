@@ -5,7 +5,7 @@ const pdfValue = atob(pdfValueEnc);
 
 WebViewer({
     path: '/secureview/lib/',
-    licenseKey: 'i4FZA4xASofmQhDtyX4Z',
+    licenseKey: 'Ne3JB5Om7iKQD4pl6C0e',
     disabledElements: [
         'selectToolButton', 'toolsButton', 'printButton', 'downloadButton', 'searchButton', 'themeChangeButton', 'languageButton', 'fullscreenButton', 'menuButton', 'viewControlsButton', 'leftPanelButton', 'moreButton'
     ],
