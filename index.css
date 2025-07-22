@@ -316,10 +316,13 @@ i {
     padding: 1.5rem 0.5rem;
   }
   .subjectID {
-    font-size: 2.2rem;
+    font-size: 2.2rem; /* mobile small card name fix */
   }
   .cardSubtitle {
     font-size: 1rem;
+  }
+  .mainID {
+    font-size: 2.8rem; /* mobile small header name fix */
   }
 }
 
