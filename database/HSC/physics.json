@@ -1,0 +1,24 @@
+[
+  {
+    "dbHeader": "meta",
+    "dbRelation": "subject",
+    "dbType": "json",
+    "dbClass": "ObjectOrientedDatabase",
+    "objectClass": "hideall"
+  },
+  
+  
+  {"objectName": "<i class='fa-solid fa-angles-right fax-col2'></i>&nbsp; Class 11 &nbsp;<i class='fa-solid fa-angles-left fax-col1'></i>",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
+  { "id": 1, "objectName": "phy demo", "objectUrl": "demo.pdf" },
+
+  
+  {
+    "dbFooter": "meta",
+    "dbScripts": "/index.js",
+    "dbVersion": "stable",
+    "objectClass": "hideall"
+  }
+]

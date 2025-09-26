@@ -73,15 +73,15 @@ function getRandInt() {
   return Math.floor(Math.random() * 9000) + 1000;
 }
 
-//db
-function dbLoadX(dbName) {
-$.getJSON( "/database/"+dbName+".json?cache=0", function(data) {
+//db main func
+function dbLoadX(dbName, dbLevelID) {
+$.getJSON( "/database/"+dbLevelID+"/"+dbName+".json?cache=0", function(data) {
   $.each( data, function(key, val) {
- var objectUrlEnc = encodeURIComponent("/practicals/" + dbName + "/" + val.objectUrl);
- var objectNameEnc = encodeURIComponent(val.objectName);
+ //var objectUrlEnc = encodeURIComponent("/practicals/" + dbName + "/" + val.objectUrl);
+ //var objectNameEnc = encodeURIComponent(val.objectName);
  //var $clonePopulate = $("<a href='/pedestal/viewer?f="+objectUrlEnc+"&n="+objectNameEnc+"' class='"+val.objectClass+" "+val.anchorClass+"'><li class='sites "+val.liClass+"'>"+val.objectName+"</li></a>");
 
-var pdfUrl = "https://cdn.jsdelivr.net/gh/ifgglobal/cdn/practicals/" + dbName + "/" + val.objectUrl;
+var pdfUrl = "https://cdn.jsdelivr.net/gh/ifgglobal/cdn/practicals/" + dbLevelID + "/" + dbName + "/" + val.objectUrl;
 var pdfUrlEnc = btoa(pdfUrl);
 var linkId = "sv" + "_" + getRandInt() + key + Date.now(); // unique ID
 sessionStorage.setItem(linkId, pdfUrlEnc); // store path safely
@@ -94,30 +94,42 @@ var $clonePopulate = $("<a href='/secureview/sview?pid=" + linkId + "' class='" 
 });
 };
 
-function bioExec() {
-  console.log("bio");
-  dbLoadX("biology");
+//db helper func
+
+//ssc db
+function SSC_bioExec() {
+  dbLoadX("biology", "SSC");
+};
+function SSC_phyExec() {
+  dbLoadX("physics", "SSC");
+};
+function SSC_hmExec() {
+  dbLoadX("highermath", "SSC");
+};
+function SSC_chemExec() {
+  dbLoadX("chemistry", "SSC");
+};
+function SSC_ictExec() {
+  dbLoadX("ict", "SSC");
 };
 
-function phyExec() {
-  console.log("phy");
-  dbLoadX("physics");
+//hsc db
+function HSC_bioExec() {
+  dbLoadX("biology", "HSC");
+};
+function HSC_phyExec() {
+  dbLoadX("physics", "HSC");
+};
+function HSC_hmExec() {
+  dbLoadX("highermath", "HSC");
+};
+function HSC_chemExec() {
+  dbLoadX("chemistry", "HSC");
+};
+function HSC_ictExec() {
+  dbLoadX("ict", "HSC");
 };
 
-function hmExec() {
-  console.log("hm");
-  dbLoadX("highermath");
-};
-
-function chemExec() {
-  console.log("chem");
-  dbLoadX("chemistry");
-};
-
-function ictExec() {
-  console.log("ict");
-  dbLoadX("ict");
-};
 //end db
 
 

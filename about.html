@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+    <link href="/favicon/favicon-light.png" rel="icon" media="(prefers-color-scheme: light)" />
+    <link href="/favicon/favicon-dark.png" rel="icon" media="(prefers-color-scheme: dark)" />
+    <title>About - Practicals</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+        * {
+            font-size: "Krona One", sans-serif;
+        }
+
+        ::selection {
+            background-color: rgba(209, 209, 209, 0.5);
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Krona One", sans-serif;
+            background-color: #0e0e0e;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .Sbackground {
+            position: fixed;
+            inset: 0;
+        }
+
+        .Dbackground {
+            height: 100vh;
+            background-image: url("/path/to/image.jpg");
+        }
+
+        .background:after {
+            animation: grain 8s steps(10) infinite;
+            background-image: url("/bgImage/pattern/grain.png");
+            content: "";
+            height: 300%;
+            left: -50%;
+            opacity: 0.3;
+            position: fixed;
+            top: -100%;
+            width: 300%;
+        }
+
+        @keyframes grain {
+
+            0%,
+            100% {
+                transform: translate(0, 0)
+            }
+
+            10% {
+                transform: translate(-5%, -10%)
+            }
+
+            20% {
+                transform: translate(-15%, 5%)
+            }
+
+            30% {
+                transform: translate(7%, -25%)
+            }
+
+            40% {
+                transform: translate(-5%, 25%)
+            }
+
+            50% {
+                transform: translate(-15%, 10%)
+            }
+
+            60% {
+                transform: translate(15%, 0%)
+            }
+
+            70% {
+                transform: translate(0%, 15%)
+            }
+
+            80% {
+                transform: translate(3%, 35%)
+            }
+
+            90% {
+                transform: translate(-10%, 10%)
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(3%, -3%) scale(1.05);
+            }
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 5vh 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: White;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            opacity: 0.8;
+            margin-bottom: 3rem;
+            margin-top: 8px !important;
+        }
+
+        .cards-container {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(1, minmax(280px, 1fr));
+            width: auto;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(12px);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            position: relative;
+            overflow: hidden;
+
+            display: flex;
+            /* enable flexbox */
+            flex-direction: column;
+            /* stack title, text, footer */
+            justify-content: center;
+            /* center vertically */
+            align-items: center;
+            /* center horizontally */
+            height: 280px;
+        }
+
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 40px rgba(255, 255, 255, 0.2);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(to right, #fff, #aaa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            opacity: 0.85;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            text-align: center;
+        }
+
+        .card-button {
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            width: 200px;
+        }
+
+        .card-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .card-icon {
+            font-size: 1.25rem;
+            opacity: 0.7;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-icon {
+            transform: translateX(5px);
+            opacity: 1;
+        }
+
+        .card-button .ripple {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: scale(0);
+            animation: ripple 0.5s linear;
+            pointer-events: none;
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        .centerMe {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        small {
+            font-size: 9px;
+        }
+
+        .finishline {
+            font-size: 15px;
+        }
+
+        .finishline2 {
+            font-size: 10px;
+            margin-top: 8px !important;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="preloader" id="preloader"><div class="preloaderHolder"><iframe src="/preloader/index.html"></iframe></div></div>
+    <div class="background"></div>
+    <main>
+        <h1>About Practicals</h1>
+        <p class="subtitle">Meet the people behind</p>
+        <div class="centerMe">
+            <div class="cards-container">
+                <div class="card">
+                    <h2>Erik AKPR</h2>
+                    <p>Lead Developer</p>
+                    <div class="card-footer">
+                        <a href="https://facebook.com/erik.dsg"><button class="card-button">Contact via
+                                Facebook</button></a>
+                        <a href="mailto:akpr@ccmail.uk"><button class="card-button">Contact via
+                                Email</button></a>
+                        <a href="https://github.com/AKPR2007"><button class="card-button">GitHub</button></a>
+                        <small>(I might be slow to respond)</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>AH Jawwad</h2>
+                    <p>Content creator & manager</p>
+                    <div class="card-footer">
+                        <a href="mailto:ahsanulhaque862008@gmail.com"><button class="card-button">Contact via
+                                Email</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <h1 class="finishline">Powered by IFG Global &copy; MMXXV</h1>
+    <h1 class="finishline2">"Empowering Dreams"</h1>
+    <h1 class="finishline2">"Fake It Till You Make It"<br>&nbsp;</h1>
+    <script>
+        //anim
+function loaderX() {
+  jQuery('#preloader').delay(750).fadeOut(400)
+};
+
+window.addEventListener("load", loaderX);
+//end anim
+    </script>
+</body>
+
+</html>
