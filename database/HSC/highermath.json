@@ -12,7 +12,7 @@
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
-  {"objectName": "<i class='fa-solid fa-angle-right fax-col2'></i>&nbsp; সরলরেখা &nbsp;<i class='fa-solid fa-angle-left fax-col1'></i>",
+  {"objectName": "<i class='fa-solid fa-angle-right'></i>&nbsp; সরলরেখা &nbsp;<i class='fa-solid fa-angle-left'></i>",
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
