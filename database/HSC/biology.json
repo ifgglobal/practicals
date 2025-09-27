@@ -12,7 +12,8 @@
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
-  { "id": 1, "objectName": "bio demo", "objectUrl": "demo.pdf" },
+  { "id": 1, "objectName": "Study of Simple Microscope", "objectUrl": "hscbio01.pdf" },
+  { "id": 2, "objectName": "Study of Compound Microscope", "objectUrl": "hscbio02.pdf" },
   
   
   {
