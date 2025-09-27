@@ -369,7 +369,7 @@ i {
   height: auto; /* Let content determine height */
   max-height: 300px; /* Prevent excessive growth */
   white-space: normal; /* Allow text wrapping */
-  overflow-y: auto; /* Scroll if text overflows */
+  overflow: hidden; /* Scroll if text overflows */
   /*scrollbar-width: thin;  Styled scrollbar for Firefox */
   scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.2);
 }
@@ -422,7 +422,7 @@ i {
 }
 
 .divider {
-  font-family: outfit, sans-serif;
+  font-family: outfit, gbnFont, sans-serif;
   font-size: clamp(2rem, 4vw, 2.5rem);
   text-align: center;
   color: white;
