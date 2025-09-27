@@ -32,6 +32,15 @@
   padding: 0;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -361,7 +370,7 @@ i {
   max-height: 300px; /* Prevent excessive growth */
   white-space: normal; /* Allow text wrapping */
   overflow-y: auto; /* Scroll if text overflows */
-  scrollbar-width: thin; /* Styled scrollbar for Firefox */
+  /*scrollbar-width: thin;  Styled scrollbar for Firefox */
   scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.2);
 }
 
