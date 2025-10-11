@@ -21,6 +21,10 @@
             background-color: rgba(209, 209, 209, 0.5);
         }
 
+        a {
+            cursor: url(/cursors/select-blk.cur), auto;
+        }
+
         html,
         body {
             margin: 0;
@@ -29,6 +33,7 @@
             background-color: #0e0e0e;
             color: #fff;
             overflow-x: hidden;
+            cursor: url(/cursors/pointer-blk.cur), auto;
         }
 
         .Sbackground {
@@ -204,6 +209,7 @@
             margin-top: 3px;
             margin-bottom: 3px;
             width: 200px;
+            cursor: url(/cursors/select-blk.cur), auto;
         }
 
         .card-button:hover {
@@ -263,7 +269,7 @@
     </style>
 </head>
 
-<body>
+<body oncontextmenu="return false;">
     <div class="preloader" id="preloader"><div class="preloaderHolder"><iframe src="/preloader/index.html"></iframe></div></div>
     <div class="background"></div>
     <main>

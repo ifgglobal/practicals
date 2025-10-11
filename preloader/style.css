@@ -1,9 +1,12 @@
+* {
+  cursor: url(/cursors/pointer.cur), auto;
+}
 body {
   display: flex;
   height: 100vh;
   width: 100vw;
   margin: 0;
-  padding none;
+  padding: none;
   border: none;
   justify-content: center;
   align-items: center;

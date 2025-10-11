@@ -202,3 +202,13 @@ function HSC_ictExec() {
     setTimeout(setEqualHeights, 100);
     sessionStorage.clear()
   });
+
+
+// disable contextmenu
+$(document).on("contextmenu",function(e){
+     if( e.button == 2 ) {
+         e.preventDefault();
+          //null();
+     }
+return true;
+});
