@@ -12,7 +12,8 @@
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
 
-  { "id": 1, "objectName": "phy demo", "objectUrl": "demo.pdf" },
+  { "id": 1, "objectName": "স্ফেরোমিটারের সাহায্যে গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়", "objectUrl": "hscphy01.pdf" },
+  { "id": 2, "objectName": "আনত তলে গড়িয়ে পড়া মার্বেলের গতি পর্যবেক্ষণের মাধ্যমে গ্যালিলিওর মুক্তভাবে পতনশীল বস্তু সম্পর্কিত সূত্রসমূহের প্রায়োগিক সত্যতা যাচাই ", "objectUrl": "hscphy02.pdf" },
 
   
   {
