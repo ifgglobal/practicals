@@ -12,8 +12,10 @@
     "anchorClass": "inactiveClassA",
     "liClass": "divider"},
   
-  { "id": 1, "objectName": "Study of Simple Microscope", "objectUrl": "hscbio01.pdf" },
-  { "id": 2, "objectName": "Study of Compound Microscope", "objectUrl": "hscbio02.pdf" },
+  { "id": 1, "objectName": "সরল অণুবীক্ষণযন্ত্র অধ্যয়ন", "objectUrl": "hscbio01.pdf" },
+  { "id": 2, "objectName": "যৌগিক অণুবীক্ষণযন্ত্র অধ্যয়ন", "objectUrl": "hscbio02.pdf" },
+  { "id": 3, "objectName": "মাইটোসিসের বিভিন্ন পর্যায় পর্যবেক্ষণ", "objectUrl": "hscbio03.pdf" },
+  { "id": 4, "objectName": "টক দই থেকে ব্যাকটেরিয়া পর্যবেক্ষণ", "objectUrl": "hscbio04.pdf" },
   
   
   {
