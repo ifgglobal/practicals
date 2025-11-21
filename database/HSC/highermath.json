@@ -33,7 +33,15 @@
 
   { "id": 11, "objectName": "x²+y²=36 বৃত্তের লেখচিত্র অঙ্কন করে লেখের বৈশিষ্ট্য উল্লেখ করতে হবে", "objectUrl": "hschm4a.pdf" },
   { "id": 12, "objectName": "x²+y²+4x-6y-12=0 বৃত্তটির লেখচিত্র অঙ্কন করে লেখের বৈশিষ্ট্য উল্লেখ করতে হবে", "objectUrl": "hschm4b.pdf" },
-  
+
+  {"objectName": "<i class='fa-solid fa-angle-right fax-col2'></i>&nbsp; সংযুক্ত কোণের ত্রিকোণমিতিক অনুপাত &nbsp;<i class='fa-solid fa-angle-left fax-col1'></i>",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
+  { "id": 13, "objectName": "একটি ত্রিভুজের বাহুগুলোর দৈর্ঘ্য যথাক্রমে 50 সেমি, 60 সেমি ও 70 সেমি| সূত্র ও লেখচিত্রের সাহায্যে ত্রিভুজটির কোণগুলোর মান নির্ণয় করতে হবে", "objectUrl": "hschm7a.pdf" },
+  { "id": 14, "objectName": "একটি ত্রিভুজের কোণ তিনটি 50˚,60˚ ও 70˚ হলে সূত্র ও লেখচিত্রের সাহায্যে বাহু তিনটির অনুপাত নির্ণয় করতে হবে", "objectUrl": "hschm7b.pdf" },
+  { "id": 15, "objectName": "∆ABC এর ∠A = 50˚, ∠B = 30˚ এবং b = 50 সেমি হলে সূত্র ও লেখচিত্রের সাহায্যে ত্রিভুজটি সমাধান করতে হবে", "objectUrl": "hschm7c.pdf" },
+
   
   {
     "dbFooter": "meta",
