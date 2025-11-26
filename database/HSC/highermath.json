@@ -42,6 +42,14 @@
   { "id": 14, "objectName": "একটি ত্রিভুজের কোণ তিনটি 50˚,60˚ ও 70˚ হলে সূত্র ও লেখচিত্রের সাহায্যে বাহু তিনটির অনুপাত নির্ণয় করতে হবে", "objectUrl": "hschm7b.pdf" },
   { "id": 15, "objectName": "∆ABC এর ∠A = 50˚, ∠B = 30˚ এবং b = 50 সেমি হলে সূত্র ও লেখচিত্রের সাহায্যে ত্রিভুজটি সমাধান করতে হবে", "objectUrl": "hschm7c.pdf" },
 
+  {"objectName": "<i class='fa-solid fa-angle-right fax-col2'></i>&nbsp; ফাংশন ও ফাংশনের লেখচিত্র &nbsp;<i class='fa-solid fa-angle-left fax-col1'></i>",
+    "anchorClass": "inactiveClassA",
+    "liClass": "divider"},
+
+   { "id": 16, "objectName": "y=sin2x; -90˚≤x≤90˚ এর লেখচিত্র অঙ্কন করে লেখের বৈশিষ্ট্য উল্লেখ করতে হবে", "objectUrl": "hschm8a.pdf" },
+   { "id": 17, "objectName": "y=cos2x; -3π/4˚≤x≤3π/4˚ এর লেখচিত্র অঙ্কন করে লেখের বৈশিষ্ট্য উল্লেখ করতে হবে", "objectUrl": "hschm8b.pdf" },
+   { "id": 18, "objectName": "y=|x-3| এর লেখচিত্র অঙ্কন করে লেখের বৈশিষ্ট্য উল্লেখ করতে হবে", "objectUrl": "hschm8c.pdf" },
+
   
   {
     "dbFooter": "meta",
